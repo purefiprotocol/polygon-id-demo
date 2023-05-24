@@ -1,0 +1,30 @@
+@import 'bootstrap/dist/css/bootstrap-reboot.css';
+@import 'bootstrap/dist/css/bootstrap.css';
+@import 'react-toastify/dist/ReactToastify.css';
+
+:root {
+  --black-color: #080808;
+  --navbar-height: 56px;
+  --w3m-accent-color: gray !important;
+  --w3m-background-color: var(--black-color) !important;
+  --w3m-font-family: 'Roboto Mono', monospace, sans-serif !important;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  overflow-y: hidden;
+  font-family: 'Roboto Mono', monospace, sans-serif;
+}
+
+.bg-dark,
+.btn-dark,
+.badge-dark {
+  background-color: var(--black-color) !important;
+}
+
+.custom-control-input:checked ~ .custom-control-label:before {
+  border-color: var(--black-color) !important;
+  background-color: var(--black-color) !important;
+}
